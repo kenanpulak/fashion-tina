@@ -1,3 +1,37 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1, h2, h3, h4, h5, p, span, body {
+  font-family: 'Lato', Helvetica, san-serif; 
+  font-weight: 300;
+}
+
+body {
+  padding-top: 50px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.navbar {
+  font-weight: 400;
+  color: white;
+  line-height: 50px;
+  span {
+    padding: 0 15px;
+    font-weight: 400;
+  }
+}
+
+.navbar-header {
+  height: 50px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    padding: 0 10px;
+  }
+  &:hover {
+    background-color: #97310e;
+  }
+}

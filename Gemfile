@@ -43,3 +43,6 @@ gem 'rspec-rails'
 
 # Use Haml for templating
 gem 'haml-rails'
+
+# Use bootstrap for styling
+gem 'bootstrap-sass'

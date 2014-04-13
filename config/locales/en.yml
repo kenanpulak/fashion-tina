@@ -20,4 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  about: "About Us"
+  contact_us: "Contact Us"
   hello: "Hello world"
+  page_header: "Style with Tina"
+  pricing: "Pricing"
+  tag_line: "Designer on demand in San Francisco"
+  title: "Fashion Tina"
+
