@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use rspec for testing
+gem 'rspec-rails'
+
+# Use Haml for templating
+gem 'haml-rails'
