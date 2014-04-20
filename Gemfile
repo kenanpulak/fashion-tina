@@ -45,3 +45,7 @@ gem 'haml-rails'
 
 # Use bootstrap for styling
 gem 'bootstrap-sass'
+
+group :development do
+  gem "better_errors"
+end

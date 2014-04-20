@@ -1,37 +1,52 @@
-h1, h2, h3, h4, h5, p, span, body {
-  font-family: 'Lato', Helvetica, san-serif; 
-  font-weight: 300;
+.hero {
+  @include white-contrast-text;
+  margin: 20px 0;
+  width: 100%;
+  height: 600px;
+  background: image-url('welcome_tina.jpg') 0 40% no-repeat;
+  background-size: cover;
 }
 
-body {
-  padding-top: 50px;
-}
-
-h1 {
-  font-weight: 400;
-}
-
-.navbar {
-  font-weight: 400;
-  color: white;
-  line-height: 50px;
-  span {
-    padding: 0 15px;
-    font-weight: 400;
+.list-of-three {
+  .col-lg-4 {
+    padding: 50px;
+    box-sizing: border-box;
   }
 }
 
-.navbar-header {
-  height: 50px;
+.circle-image {
+  @include white-contrast-text;
+  text-align: center;
+  font-size: 30px;
+  height: 200px;
+  line-height: 200px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  margin: 0 auto;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 22px;
-    line-height: 50px;
-    padding: 0 10px;
-  }
-  &:hover {
-    background-color: #97310e;
-  }
+.kenan {
+  background: image-url('wasup_kenan.jpg') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.nick {
+  background: image-url('wtf_nick.jpg') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.wendy {
+  background: image-url('random_wendy.jpeg') 50% 10% no-repeat;
+  background-size: 180%;
+}
+
+.second-tina {
+  height: 500px;
+  background: linear-gradient(to right, white, black);
+}
+
+.third-tina {
+  height: 500px;
+  background: image-url('second_tina.jpg') no-repeat;
 }

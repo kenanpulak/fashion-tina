@@ -1,6 +1,31 @@
-.container
-  .page-header
-    %h1 
+.hero{ data: { '0' => 'background-position: 0 40%;', '400' => 'background-position: 0 0;'}}
+  .container
+    %h1{ data: { '0' => 'position:relative;top:0px;', '300' => 'top: 400px;'}}
       = I18n.t(:page_header)
-    %p.lead
+    %p.lead{ data: { '0' => 'position:relative;top:0px;', '300' => 'top: 400px;'}}
       = I18n.t(:tag_line)
+.container
+  .row.border-separated.list-of-three
+    .col-lg-4
+      .circle-image.kenan{ data: { '200' => 'height:175px;width:175px;border-radius:90px;line-height:175px;font-size:20px', '400' => "height:200px;width:200px;border-radius:100px;line-height:270px;font-size:30px"}} WHAT?
+      %h2.centered{ data: { '200' => 'opacity: 0', '300' => 'opacity: 1'}} Kenan, SF
+      %p{ data: { '200' => 'opacity: 0', '300' => 'opacity: 1'}} "The Beast from the Middle East is back."
+    .col-lg-4
+      .circle-image.nick{ data: { '300' => 'height:175px;width:175px;border-radius:90px;line-height:175px;font-size:20px', '450' => "height:200px;width:200px;border-radius:100px;line-height:270px;font-size:30px"}}
+        HOW!
+      %h2.centered{ data: { '200' => 'opacity: 0', '300' => 'opacity: 1'}}  Nick, SF
+      %p{ data: { '300' => 'opacity: 0', '350' => 'opacity: 1'}}  "I actually look like a K-pop star now."
+    .col-lg-4
+      .circle-image.wendy{ data: { '400' => 'height:175px;width:175px;border-radius:90px;line-height:175px;font-size:20px', '500' => "height:200px;width:200px;border-radius:100px;line-height:270px;font-size:30px"}}
+        OMG!
+      %h2.centered{ data: { '350' => 'opacity: 0', '500' => 'opacity: 1'}}  Wendy, SF
+      %p{ data: { '350' => 'opacity: 0', '500' => 'opacity: 1'}} "My boyfriend dresses so much better!"
+.row.second-tina
+  .container
+    .col-lg-12
+      %h2 More stuff
+
+.row.third-tina
+  .container
+    .col-lg-12
+      %h2 Again, more stuff
