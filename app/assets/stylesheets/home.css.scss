@@ -1,10 +1,13 @@
 .hero {
-  @include white-contrast-text;
-  margin: 20px 0;
-  width: 100%;
-  height: 600px;
-  background: image-url('welcome_tina.jpg') 0 40% no-repeat;
+  background: image-url('mens_closet.jpg') 0 40% no-repeat;
   background-size: cover;
+  height: 600px;
+  width: 100%;
+  @include white-contrast-text;
+  h1 {
+    padding-top: 200px;
+    font-size: 65px;
+  }
 }
 
 .list-of-three {

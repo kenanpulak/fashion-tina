@@ -1,24 +1,42 @@
 .navbar {
-  font-weight: 400;
+  border: none;
   color: white;
-  line-height: 50px;
+  font-weight: 400;
+  height: 70px;
+  margin: 0;
   span {
-    padding: 0 15px;
     font-weight: 400;
   }
 }
 
+.nav li a {
+  padding: 28px 20px 22px;
+}
+
 .navbar-header {
-  height: 50px;
+  height: 70px;
+  font-size: 0;
+  padding: 0 20px;
 
   a {
     color: white;
     text-decoration: none;
     font-size: 1em;
-    line-height: 50px;
-    padding: 0 10px;
+    line-height: 70px;
+    span {
+      font-family: 'Josefin Slab', serif;
+      font-size: 30px;
+    }
   }
   &:hover {
     background-color: #97310e;
+  }
+
+  a span.logo-first {
+    font-weight: 700;
+  }
+
+  a span.logo-last {
+    font-weight: 300;
   }
 }
