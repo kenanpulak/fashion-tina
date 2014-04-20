@@ -1,9 +1,9 @@
-.hero{ data: { '0' => 'background-position: 0 40%;', '400' => 'background-position: 0 0;'}}
+.hero
   .container
-    %h1{ data: { '0' => 'position:relative;top:0px;', '300' => 'top: 400px;'}}
-      = I18n.t(:page_header)
-    %p.lead{ data: { '0' => 'position:relative;top:0px;', '300' => 'top: 400px;'}}
-      = I18n.t(:tag_line)
+    %h1{ class: 'text-center' }
+      %span Transform your closet
+    %p.lead{ class: 'text-center' }
+
 .container
   .row.border-separated.list-of-three
     .col-lg-4

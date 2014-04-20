@@ -1,7 +1,9 @@
-.navbar.navbar-default.navbar-fixed-top
+.navbar.navbar-default
   .container
     .navbar-header
-      = link_to I18n.t(:title), root_path
+      = link_to root_path do
+        %span{class: 'logo-first'}Style
+        %span{class: 'logo-last'}Time
       %button.navbar-toggle{ type: 'button', data: { toggle: 'collapse', target: '#navbar-main'} }
         %span.icon-bar
         %span.icon-bar
