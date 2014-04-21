@@ -65,4 +65,14 @@
   .nav {
     margin: 0;
   }
+
+  .list-of-three {
+    margin: 70px 0;
+    .col-lg-4 {
+      margin: 20px 0;
+      box-sizing: border-box;
+      height: 240px;
+      text-align: center;
+    }
+  }
 }
