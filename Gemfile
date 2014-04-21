@@ -46,6 +46,8 @@ gem 'haml-rails'
 # Use bootstrap for styling
 gem 'bootstrap-sass'
 
+gem 'newrelic_rpm'
+
 group :development do
   gem "better_errors"
 end
