@@ -1,6 +1,3 @@
 $( ->
-  window.s = skrollr.init(
-    render: (data) ->
-      console.log data.curTop
-    )
+  window.s = skrollr.init()
 )
