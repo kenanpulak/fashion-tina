@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 body {
   width: 100%;
   font-size: 170%;
@@ -25,10 +29,10 @@ h1 {
   text-align: right;
 }
 
-.border-separated {
-  & > div:nth-child(-n + 2) {
-    border-right: 1px solid #ccc;
-  }
+.row {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 @mixin white-contrast-text() {

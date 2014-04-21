@@ -4,13 +4,19 @@
   font-weight: 400;
   height: 70px;
   margin: 0;
+  border-radius: 0;
   span {
     font-weight: 400;
   }
 }
 
-.nav li a {
+.nav li a, .nav li span {
+  display: block;
   padding: 28px 20px 22px;
+}
+
+.nav li span {
+  padding-top: 26px;
 }
 
 .navbar-header {

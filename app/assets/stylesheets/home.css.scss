@@ -8,48 +8,61 @@
     padding-top: 200px;
     font-size: 65px;
   }
+  .lead {
+    font-size: 30px;
+  }
 }
 
 .list-of-three {
   .col-lg-4 {
-    padding: 50px;
+    margin: 150px 0;
     box-sizing: border-box;
+    height: 240px;
+    text-align: center;
   }
 }
 
-.circle-image {
-  @include white-contrast-text;
+.image {
   text-align: center;
   font-size: 30px;
-  height: 200px;
-  line-height: 200px;
-  width: 200px;
-  border: 1px solid gray;
-  border-radius: 100px;
+  height: 100px;
+  width: 100px;
   margin: 0 auto;
 }
 
-.kenan {
-  background: image-url('wasup_kenan.jpg') 0 0 no-repeat;
+.web {
+  background: image-url('icons/email.png') 0 0 no-repeat;
   background-size: 100%;
 }
 
-.nick {
-  background: image-url('wtf_nick.jpg') 0 0 no-repeat;
+.chat {
+  background: image-url('icons/screen.png') 0 0 no-repeat;
   background-size: 100%;
 }
 
-.wendy {
-  background: image-url('random_wendy.jpeg') 50% 10% no-repeat;
-  background-size: 180%;
+.shop {
+  background: image-url('icons/shopping-bag.png') 0 0 no-repeat;
+  background-size: 85%;
 }
 
-.second-tina {
-  height: 500px;
-  background: linear-gradient(to right, white, black);
-}
+// responsive styling
+@media (max-width: 767px) {
+  .navbar-toggle {
+    margin-top: 18px;
+  }
 
-.third-tina {
-  height: 500px;
-  background: image-url('second_tina.jpg') no-repeat;
+  .navbar-collapse {
+    background-color: #bf3e11;
+    padding: 0;
+    li {
+      line-height: 40px;
+      a {
+        padding: 24px 20px 26px;
+      }
+    }
+  }
+
+  .nav {
+    margin: 0;
+  }
 }
