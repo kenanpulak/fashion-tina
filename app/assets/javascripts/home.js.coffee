@@ -1,2 +1,3 @@
 $( ->
+  window.s = skrollr.init()
 )

@@ -20,6 +20,10 @@
     height: 240px;
     text-align: center;
   }
+
+  .fade-in {
+    font-size: 0.9em;
+  }
 }
 
 .image {
@@ -43,73 +47,4 @@
 .shop {
   background: image-url('icons/shopping-bag.png') 0 0 no-repeat;
   background-size: 85%;
-}
-
-// responsive styling
-@media (max-width: 767px) {
-  .navbar-toggle {
-    margin-top: 18px;
-  }
-
-  .navbar-collapse {
-    background-color: #bf3e11;
-    padding: 0;
-    li {
-      line-height: 40px;
-      a {
-        padding: 24px 20px 26px;
-      }
-    }
-  }
-
-  .nav {
-    margin: 0;
-  }
-
-  .list-of-three {
-    margin: 30px 0;
-
-    .col-lg-4 {
-      margin: 10px 0;
-      box-sizing: border-box;
-      height: 150px;
-      text-align: center;
-    }
-
-    .image {
-      height: 50px;
-      width: 50px;
-    }
-
-    h2 {
-      font-size: 22px;
-    }
-
-    p {
-      font-size: 14px;
-    }
-  }
-
-  .hero {
-    height: 350px;
-
-    h1 {
-      padding-top: 0px;
-      margin-top: 125px;
-      font-size: 30px;
-    }
-
-    p.lead {
-      font-size: 16px;
-    }
-
-    h1, p {
-      background: rgba(0,0,0,0.6);
-      padding: 5px;
-    }
-  }
-
-  h2.centered {
-    margin-top: 0;
-  }
 }
