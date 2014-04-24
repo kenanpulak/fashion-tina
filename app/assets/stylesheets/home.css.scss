@@ -13,17 +13,24 @@
   }
 }
 
+.container {
+  position: relative;
+}
+
 .list-of-three {
   .col-lg-4 {
     margin: 70px 0;
     box-sizing: border-box;
-    height: 225px;
     text-align: center;
   }
 
   .fade-in {
     font-size: 0.9em;
   }
+}
+
+.steps {
+  z-index: 2;
 }
 
 .image {
@@ -56,7 +63,9 @@
 }
 
 .smiling-suit {
-  height: 500px;
+  height: 700px;
   background: image-url('hands.jpg') 0 70% no-repeat;
   background-size: 100%;
+  position: relative;
+  top: -361px;
 }
