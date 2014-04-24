@@ -15,9 +15,9 @@
 
 .list-of-three {
   .col-lg-4 {
-    margin: 150px 0;
+    margin: 70px 0;
     box-sizing: border-box;
-    height: 240px;
+    height: 225px;
     text-align: center;
   }
 
@@ -40,11 +40,23 @@
 }
 
 .chat {
+  width: 120px;
+  position: relative;
+  top: -23px;
   background: image-url('icons/screen.png') 0 0 no-repeat;
   background-size: 100%;
 }
 
 .shop {
+  position: relative;
+  weight: 140px;
+  top: -10px;
   background: image-url('icons/shopping-bag.png') 0 0 no-repeat;
-  background-size: 85%;
+  background-size: 100%;
+}
+
+.smiling-suit {
+  height: 500px;
+  background: image-url('hands.jpg') 0 70% no-repeat;
+  background-size: 100%;
 }
