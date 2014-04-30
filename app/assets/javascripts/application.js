@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require bootstrap
 //= require skrollr.min
+//= require angular
 //= require home
 //= require_tree .

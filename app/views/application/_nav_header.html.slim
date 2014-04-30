@@ -1,0 +1,19 @@
+div class="navbar navbar-default"
+  div class="container"
+    div class="navbar-header"
+      == link_to root_path do
+        span class="logo-first" Style
+        span class="logo-last" Byte
+      button class="navbar-toggle" type='button' data-toggle='collapse' data-target='#navbar-main'
+        span class="icon-bar"
+        span class="icon-bar"
+        span class="icon-bar"
+    div class="navbar-collapse collapse" id="navbar-main"
+      ul class="nav navbar-nav"
+        li
+          == link_to_unless_current 'Team', team_path do
+            span Team
+        li
+          == link_to 'Blog', 'http://stylebytesf.wordpress.com/', target: 'blank'
+        li
+          == link_to 'Contact Us', '', id: 'contact_us'

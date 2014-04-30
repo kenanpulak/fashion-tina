@@ -40,8 +40,8 @@ gem 'spring',        group: :development
 # Use rspec for testing
 gem 'rspec-rails'
 
-# Use Haml for templating
-gem 'haml-rails'
+# Use Slim for templating
+gem 'slim-rails'
 
 # Use bootstrap for styling
 gem 'bootstrap-sass'
@@ -49,6 +49,8 @@ gem 'bootstrap-sass'
 gem 'newrelic_rpm'
 
 gem 'thin'
+
+gem 'angularjs-rails'
 
 group :development do
   gem "better_errors"
