@@ -1,0 +1,33 @@
+$break-small: 840px;
+
+#team {
+  width: 100%;
+  .picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    margin: 20px auto 40px;
+  }
+
+  .person {
+    vertical-align: top;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+  #kenan-pulak .picture {
+    background: transparent image-url('kenan-pulak.jpg') 0 0 no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #nick-hong .picture {
+    background: transparent image-url('nick-hong.jpg') 0 0 no-repeat;
+    background-size: 100%;
+  }
+
+  #tina-calderone .picture {
+    background: transparent image-url('tina-calderone.jpg') 0 0 no-repeat;
+    background-size: 100% 100%;
+  }
+}

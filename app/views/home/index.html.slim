@@ -1,44 +1,43 @@
-div class="hero"
-  div class="gradient"
-  div class="container"
-    h1 class="text-center"
+div.hero
+  div.gradient
+  div.container
+    h1.text-center
       span Transform your closet
-    p class="lead text-center" Shop with your own personal stylist
+    p.lead.text-center Shop with your own personal stylist
 
-div class="container description full-width background-white"
+div.container.description.full-width.background-white
   p
     | StyleByte provides you with your own stylist
     br
     | that gives you a personal shopping experience.
 
-div class="container smiling-suit full-width"
-  div class="list-of-three"
-    div class="how-bubble"
-      div class="image web"
-      h2 class="centered" Contact us
-      p data-300="opacity: 0;" data-400= "opacity: 1;"
-        | Give us your email.
-    div class="how-bubble"
-      div class="image chat"
-      h2 class="centered" Talk with us
-      p data-300="opacity: 0;" data-400="opacity: 1;"
-        | Hop on a video chat to
-        br
-        | show us your current look.
-    div class="how-bubble"
-      div class="image shop"
-      h2 class="centered" Go shopping
-      p data-300= "opacity: 0;" data-400= "opacity: 1"
-        | Meet us at the stores.
-        br
-        | We'll transform your closet.
-
-div class="container full-width background-white" id="contact-us"
-  div class='centered'
-    div id="price-bubble"
-      p class='description' End-to-end styling:
-      p class='money' $75
-    == form_tag do
-      == label_tag :email, 'Interested? Let us know where to contact you:'
+div.container.smiling-suit.full-width.row.text-center
+  div.how-bubble.col-xs-12.col-md-4
+    div.image.web
+    h2.text-center Contact us
+    p data-300="opacity: 0;" data-400= "opacity: 1;"
+      | Give us your email.
+  div.how-bubble.col-xs-12.col-md-4
+    div.image.chat
+    h2.text-center Talk with us
+    p data-300="opacity: 0;" data-400="opacity: 1;"
+      | Hop on a video chat to
       br
-      == email_field_tag :email, nil, { placeholder: 'email@domain.com' }
+      | show us your current look.
+  div.how-bubble.col-xs-12.col-md-4
+    div.image.shop
+    h2.text-center Go shopping
+    p data-300= "opacity: 0;" data-400= "opacity: 1"
+      | Meet us at the stores.
+      br
+      | We'll transform your closet.
+
+div.container.full-width.background-white#contact-us
+  div.text-center
+    div#price-bubble
+      p.description End-to-end styling:
+      p.money $75
+    = form_tag do
+      = label_tag :email, 'Interested? Let us know where to contact you:'
+      br
+      = email_field_tag :email, nil, { placeholder: 'email@domain.com' }

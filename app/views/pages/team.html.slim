@@ -1,6 +1,20 @@
-div class="container"
-  div class="page-header"
+div.container
+  div.page-header
     h1
-      == I18n.t(:team)
+      = I18n.t(:team)
     p class="lead"
-      == I18n.t(:tag_line)
+      = I18n.t(:tag_line)
+
+  #team.row
+    #tina-calderone.person.col-xs-12.col-md-4
+      .picture
+      h2.title CEO, Co-founder
+      .bio Tina Caldarone is the CEO and Co-founder of Stylebyte. Tina earned her Masters in Fashion Merchandising from San Francisco’s Academy of Art University and has extensive experience in Fashion Styling, Marketing and Sales.
+    #kenan-pulak.person.col-xs-12.col-md-4
+      .picture
+      h2.title Engineer, Co-founder
+      .bio Kenan is an iOS Software Engineer at StyleByte. Previously, he has founded two internet start-ups in the Social and Enterprise spaces. He holds a B.S. in Computer Engineering from Virginia Tech.
+    #nick-hong.person.col-xs-12.col-md-4
+      .picture
+      h2.title Engineer, Co-founder
+      .bio Nick is a full stack engineer at StyleByte. He previous worked as a mangement consultant at BCG in New York City and led two companies in the enterprise parking and academic test prep industries. He studied Management and Biology at MIT.
